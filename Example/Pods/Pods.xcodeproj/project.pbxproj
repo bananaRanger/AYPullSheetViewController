@@ -1,0 +1,882 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8159C63BF8B019725F2D5C0CA19813 /* Pods-AYPullSheetViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8D10DCA9723B1D38292D32AC39125 /* Pods-AYPullSheetViewController_Tests-dummy.m */; };
+		4085A359230FE7D100213858 /* AYAnimatedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A344230FE7D100213858 /* AYAnimatedFactory.swift */; };
+		4085A35A230FE7D100213858 /* AYAnimatedScaledPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A345230FE7D100213858 /* AYAnimatedScaledPresenting.swift */; };
+		4085A35B230FE7D100213858 /* AYAnimatedPresenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A346230FE7D100213858 /* AYAnimatedPresenting.swift */; };
+		4085A35C230FE7D100213858 /* AYAnimatedScaledDismissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A347230FE7D100213858 /* AYAnimatedScaledDismissing.swift */; };
+		4085A35D230FE7D100213858 /* AYAnimatedDismissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A348230FE7D100213858 /* AYAnimatedDismissing.swift */; };
+		4085A35E230FE7D100213858 /* AYPullSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A34A230FE7D100213858 /* AYPullSheetViewController.swift */; };
+		4085A35F230FE7D100213858 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A34C230FE7D100213858 /* UIView.swift */; };
+		4085A360230FE7D100213858 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A34D230FE7D100213858 /* UIColor.swift */; };
+		4085A361230FE7D100213858 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A34E230FE7D100213858 /* CGFloat.swift */; };
+		4085A362230FE7D100213858 /* AYPullItemActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A350230FE7D100213858 /* AYPullItemActionView.swift */; };
+		4085A363230FE7D100213858 /* AYDirectionLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A351230FE7D100213858 /* AYDirectionLineView.swift */; };
+		4085A364230FE7D100213858 /* AYClickableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A352230FE7D100213858 /* AYClickableView.swift */; };
+		4085A365230FE7D100213858 /* AYPullSheetContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A353230FE7D100213858 /* AYPullSheetContentView.swift */; };
+		4085A366230FE7D100213858 /* AYPullSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A354230FE7D100213858 /* AYPullSheetView.swift */; };
+		4085A367230FE7D100213858 /* AYPullSheetContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A355230FE7D100213858 /* AYPullSheetContainerView.swift */; };
+		4085A368230FE7D100213858 /* AYPullSheetViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A357230FE7D100213858 /* AYPullSheetViewFactory.swift */; };
+		4085A369230FE7D100213858 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A358230FE7D100213858 /* Contract.swift */; };
+		4085A36B23100B8300213858 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085A36A23100B8300213858 /* UILabel.swift */; };
+		6015A3A7F4956646C13F8AB552203BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		83D322EEC3EA6DA5DD776BF1ED362452 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8913DAD8E18131B707DB721BDB016370 /* AYPullSheetViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0F00BBC8A39D312E7B3D5FC49ACB88 /* AYPullSheetViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A51475D653EDE60538BB15EC403C9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A950A35129206B12BEC06F5B2420BDCA /* Pods-AYPullSheetViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C64CABC815F0228FD44EDE1762FD288E /* Pods-AYPullSheetViewController_Example-dummy.m */; };
+		A9CFD7787E6CDEABB30EC1B5CB3F78D6 /* Pods-AYPullSheetViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F54F6CB050834FAB79C3750E554B4EFD /* Pods-AYPullSheetViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2707B7A50D8DBDD7506DE9306D4A230 /* Pods-AYPullSheetViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40AEE1F837EF44442A1062ABBD22ED95 /* Pods-AYPullSheetViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF858412B00CFF9FEC30523B2E076593 /* AYPullSheetViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A62B1DB6F75F2FCE2AF73D05D38AB1D2 /* AYPullSheetViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D8CBE11E696C7840FBF401DD53FBC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3732B27BDE5622CA519FD34BA154CED2;
+			remoteInfo = "Pods-AYPullSheetViewController_Example";
+		};
+		8474D80BEC901E4169157044506BE538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D86E6B9C6EAF2171F14FDF29A2B5C7;
+			remoteInfo = AYPullSheetViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113A1760125F8F02E1A036A50C3090A3 /* AYPullSheetViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYPullSheetViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FEB851CDCDC34B695793059105E3734 /* Pods_AYPullSheetViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYPullSheetViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		239BDD6610E71E4D335350729FFD18B9 /* AYPullSheetViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYPullSheetViewController.modulemap; sourceTree = "<group>"; };
+		2E97E68889A502AEA301E60D533982AE /* Pods-AYPullSheetViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPullSheetViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3003E3F6FA80B0AE6D4B7E8ACF55BE67 /* AYPullSheetViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPullSheetViewController-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4085A344230FE7D100213858 /* AYAnimatedFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYAnimatedFactory.swift; sourceTree = "<group>"; };
+		4085A345230FE7D100213858 /* AYAnimatedScaledPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYAnimatedScaledPresenting.swift; sourceTree = "<group>"; };
+		4085A346230FE7D100213858 /* AYAnimatedPresenting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYAnimatedPresenting.swift; sourceTree = "<group>"; };
+		4085A347230FE7D100213858 /* AYAnimatedScaledDismissing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYAnimatedScaledDismissing.swift; sourceTree = "<group>"; };
+		4085A348230FE7D100213858 /* AYAnimatedDismissing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYAnimatedDismissing.swift; sourceTree = "<group>"; };
+		4085A34A230FE7D100213858 /* AYPullSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPullSheetViewController.swift; sourceTree = "<group>"; };
+		4085A34C230FE7D100213858 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		4085A34D230FE7D100213858 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4085A34E230FE7D100213858 /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		4085A350230FE7D100213858 /* AYPullItemActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPullItemActionView.swift; sourceTree = "<group>"; };
+		4085A351230FE7D100213858 /* AYDirectionLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYDirectionLineView.swift; sourceTree = "<group>"; };
+		4085A352230FE7D100213858 /* AYClickableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYClickableView.swift; sourceTree = "<group>"; };
+		4085A353230FE7D100213858 /* AYPullSheetContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPullSheetContentView.swift; sourceTree = "<group>"; };
+		4085A354230FE7D100213858 /* AYPullSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPullSheetView.swift; sourceTree = "<group>"; };
+		4085A355230FE7D100213858 /* AYPullSheetContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPullSheetContainerView.swift; sourceTree = "<group>"; };
+		4085A357230FE7D100213858 /* AYPullSheetViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYPullSheetViewFactory.swift; sourceTree = "<group>"; };
+		4085A358230FE7D100213858 /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		4085A36A23100B8300213858 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		40AEE1F837EF44442A1062ABBD22ED95 /* Pods-AYPullSheetViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYPullSheetViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		430B1F0B8F290AE6EFE433E1471F43C4 /* Pods-AYPullSheetViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYPullSheetViewController_Example.modulemap"; sourceTree = "<group>"; };
+		43CC40E19E855854E6E47B94D1DD8497 /* Pods-AYPullSheetViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYPullSheetViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A8F3FA60CFB4951CED94A9819A431B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C6D0EB8C0421F46408DAFF1AEE3332E /* Pods-AYPullSheetViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYPullSheetViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		5C9DD8729D857B3F69781D935DD81BE6 /* Pods-AYPullSheetViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPullSheetViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61240041503D10704CF25AA2D9475575 /* AYPullSheetViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYPullSheetViewController.xcconfig; sourceTree = "<group>"; };
+		65AA3EC74617E25B5C4A5F20D1DAE3C5 /* AYPullSheetViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYPullSheetViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682646B96DC91460CA53FEC192FB2CE1 /* Pods-AYPullSheetViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPullSheetViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FE8D10DCA9723B1D38292D32AC39125 /* Pods-AYPullSheetViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYPullSheetViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		7388DDB1AE98B0EB00702CC06A74A001 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E1BC3A4C38BF84F61DC43B3345E2359 /* Pods_AYPullSheetViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYPullSheetViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A5AA91DC81536C5D4691D3C909A4B0 /* Pods-AYPullSheetViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYPullSheetViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D0F00BBC8A39D312E7B3D5FC49ACB88 /* AYPullSheetViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYPullSheetViewController-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D67FFDD134B2928E58439E3865CB84 /* Pods-AYPullSheetViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPullSheetViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A62B1DB6F75F2FCE2AF73D05D38AB1D2 /* AYPullSheetViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYPullSheetViewController-dummy.m"; sourceTree = "<group>"; };
+		AFA58F9F330135DABBC6359DF55167AF /* AYPullSheetViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYPullSheetViewController-Info.plist"; sourceTree = "<group>"; };
+		C64CABC815F0228FD44EDE1762FD288E /* Pods-AYPullSheetViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYPullSheetViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		D108C1647FAA4E8B07EB9F7EEF68D972 /* Pods-AYPullSheetViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPullSheetViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA1752551CD4098C3AE743E9AE358168 /* Pods-AYPullSheetViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYPullSheetViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DEC295799661F7C157076B1B5AA16F3D /* Pods-AYPullSheetViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPullSheetViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		EC8D2AC474F9E1EC2B15B325FBB6A965 /* Pods-AYPullSheetViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYPullSheetViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F54F6CB050834FAB79C3750E554B4EFD /* Pods-AYPullSheetViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYPullSheetViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE52D666763A42EEBCB6FF65FF67F868 /* Pods-AYPullSheetViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYPullSheetViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13804B625757AB377EA3C177F64045CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D322EEC3EA6DA5DD776BF1ED362452 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB5ADDD2FE0BD8C8BF8410AD99D411A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51475D653EDE60538BB15EC403C9126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FCC99AF6029544C81E62E98256236A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6015A3A7F4956646C13F8AB552203BAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F22CD89B0D24BEA7A1BE34ACDA628C5 /* Pods-AYPullSheetViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				430B1F0B8F290AE6EFE433E1471F43C4 /* Pods-AYPullSheetViewController_Example.modulemap */,
+				43CC40E19E855854E6E47B94D1DD8497 /* Pods-AYPullSheetViewController_Example-acknowledgements.markdown */,
+				D108C1647FAA4E8B07EB9F7EEF68D972 /* Pods-AYPullSheetViewController_Example-acknowledgements.plist */,
+				C64CABC815F0228FD44EDE1762FD288E /* Pods-AYPullSheetViewController_Example-dummy.m */,
+				97A5AA91DC81536C5D4691D3C909A4B0 /* Pods-AYPullSheetViewController_Example-frameworks.sh */,
+				DEC295799661F7C157076B1B5AA16F3D /* Pods-AYPullSheetViewController_Example-Info.plist */,
+				40AEE1F837EF44442A1062ABBD22ED95 /* Pods-AYPullSheetViewController_Example-umbrella.h */,
+				2E97E68889A502AEA301E60D533982AE /* Pods-AYPullSheetViewController_Example.debug.xcconfig */,
+				DA1752551CD4098C3AE743E9AE358168 /* Pods-AYPullSheetViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-AYPullSheetViewController_Example";
+			path = "Target Support Files/Pods-AYPullSheetViewController_Example";
+			sourceTree = "<group>";
+		};
+		3326A71D2874FFAC9E2B0EF70BA0404F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				113A1760125F8F02E1A036A50C3090A3 /* AYPullSheetViewController.podspec */,
+				4A8F3FA60CFB4951CED94A9819A431B2 /* LICENSE */,
+				7388DDB1AE98B0EB00702CC06A74A001 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4085A343230FE7D100213858 /* AnimatedTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				4085A344230FE7D100213858 /* AYAnimatedFactory.swift */,
+				4085A346230FE7D100213858 /* AYAnimatedPresenting.swift */,
+				4085A348230FE7D100213858 /* AYAnimatedDismissing.swift */,
+				4085A345230FE7D100213858 /* AYAnimatedScaledPresenting.swift */,
+				4085A347230FE7D100213858 /* AYAnimatedScaledDismissing.swift */,
+			);
+			name = AnimatedTransitioning;
+			path = AYPullSheetViewController/Classes/AnimatedTransitioning;
+			sourceTree = "<group>";
+		};
+		4085A349230FE7D100213858 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4085A34A230FE7D100213858 /* AYPullSheetViewController.swift */,
+			);
+			name = Modules;
+			path = AYPullSheetViewController/Classes/Modules;
+			sourceTree = "<group>";
+		};
+		4085A34B230FE7D100213858 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4085A34E230FE7D100213858 /* CGFloat.swift */,
+				4085A34D230FE7D100213858 /* UIColor.swift */,
+				4085A34C230FE7D100213858 /* UIView.swift */,
+				4085A36A23100B8300213858 /* UILabel.swift */,
+			);
+			name = Extensions;
+			path = AYPullSheetViewController/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		4085A34F230FE7D100213858 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4085A350230FE7D100213858 /* AYPullItemActionView.swift */,
+				4085A351230FE7D100213858 /* AYDirectionLineView.swift */,
+				4085A352230FE7D100213858 /* AYClickableView.swift */,
+				4085A353230FE7D100213858 /* AYPullSheetContentView.swift */,
+				4085A354230FE7D100213858 /* AYPullSheetView.swift */,
+				4085A355230FE7D100213858 /* AYPullSheetContainerView.swift */,
+			);
+			name = Views;
+			path = AYPullSheetViewController/Classes/Views;
+			sourceTree = "<group>";
+		};
+		4085A356230FE7D100213858 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4085A357230FE7D100213858 /* AYPullSheetViewFactory.swift */,
+				4085A358230FE7D100213858 /* Contract.swift */,
+			);
+			name = Helpers;
+			path = AYPullSheetViewController/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		566FDC37559C25D2A4FC72B1E27536D3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F22CD89B0D24BEA7A1BE34ACDA628C5 /* Pods-AYPullSheetViewController_Example */,
+				8A72714D224D13E1AF344D67ECFE11C4 /* Pods-AYPullSheetViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A72714D224D13E1AF344D67ECFE11C4 /* Pods-AYPullSheetViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6D0EB8C0421F46408DAFF1AEE3332E /* Pods-AYPullSheetViewController_Tests.modulemap */,
+				EC8D2AC474F9E1EC2B15B325FBB6A965 /* Pods-AYPullSheetViewController_Tests-acknowledgements.markdown */,
+				682646B96DC91460CA53FEC192FB2CE1 /* Pods-AYPullSheetViewController_Tests-acknowledgements.plist */,
+				6FE8D10DCA9723B1D38292D32AC39125 /* Pods-AYPullSheetViewController_Tests-dummy.m */,
+				FE52D666763A42EEBCB6FF65FF67F868 /* Pods-AYPullSheetViewController_Tests-Info.plist */,
+				F54F6CB050834FAB79C3750E554B4EFD /* Pods-AYPullSheetViewController_Tests-umbrella.h */,
+				5C9DD8729D857B3F69781D935DD81BE6 /* Pods-AYPullSheetViewController_Tests.debug.xcconfig */,
+				A1D67FFDD134B2928E58439E3865CB84 /* Pods-AYPullSheetViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-AYPullSheetViewController_Tests";
+			path = "Target Support Files/Pods-AYPullSheetViewController_Tests";
+			sourceTree = "<group>";
+		};
+		B84F3A5CF1D5F12F05158982FFE6AD14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AA3EC74617E25B5C4A5F20D1DAE3C5 /* AYPullSheetViewController.framework */,
+				8E1BC3A4C38BF84F61DC43B3345E2359 /* Pods_AYPullSheetViewController_Example.framework */,
+				1FEB851CDCDC34B695793059105E3734 /* Pods_AYPullSheetViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9D2FA349B0B0F352957316D8C334B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				239BDD6610E71E4D335350729FFD18B9 /* AYPullSheetViewController.modulemap */,
+				61240041503D10704CF25AA2D9475575 /* AYPullSheetViewController.xcconfig */,
+				A62B1DB6F75F2FCE2AF73D05D38AB1D2 /* AYPullSheetViewController-dummy.m */,
+				AFA58F9F330135DABBC6359DF55167AF /* AYPullSheetViewController-Info.plist */,
+				3003E3F6FA80B0AE6D4B7E8ACF55BE67 /* AYPullSheetViewController-prefix.pch */,
+				9D0F00BBC8A39D312E7B3D5FC49ACB88 /* AYPullSheetViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYPullSheetViewController";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E3AA7BAC480447177FDAF0C4D737D21C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B84F3A5CF1D5F12F05158982FFE6AD14 /* Products */,
+				566FDC37559C25D2A4FC72B1E27536D3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D46291385CE698826C4867479682CA67 /* AYPullSheetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4085A343230FE7D100213858 /* AnimatedTransitioning */,
+				4085A34B230FE7D100213858 /* Extensions */,
+				4085A356230FE7D100213858 /* Helpers */,
+				4085A349230FE7D100213858 /* Modules */,
+				4085A34F230FE7D100213858 /* Views */,
+				3326A71D2874FFAC9E2B0EF70BA0404F /* Pod */,
+				BC9D2FA349B0B0F352957316D8C334B7 /* Support Files */,
+			);
+			name = AYPullSheetViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E3AA7BAC480447177FDAF0C4D737D21C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D46291385CE698826C4867479682CA67 /* AYPullSheetViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E177D4655EF4524DEC5ACC273BFCDFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2707B7A50D8DBDD7506DE9306D4A230 /* Pods-AYPullSheetViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49121B69BCA045721BF5815B597E947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8913DAD8E18131B707DB721BDB016370 /* AYPullSheetViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71FF26030F7796BD016F17F42C6A825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CFD7787E6CDEABB30EC1B5CB3F78D6 /* Pods-AYPullSheetViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29D5062EAB5DBBC59CE97E1044C66D82 /* Pods-AYPullSheetViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A43C1F46228900BA4D43B3849854DFD8 /* Build configuration list for PBXNativeTarget "Pods-AYPullSheetViewController_Tests" */;
+			buildPhases = (
+				D71FF26030F7796BD016F17F42C6A825 /* Headers */,
+				BC7E0EAF6A5F97742B11693B9C50F5BD /* Sources */,
+				87FCC99AF6029544C81E62E98256236A /* Frameworks */,
+				62B0E777269A850793976358F6B1E870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512763809AF54A07649E5F4DD53EC78B /* PBXTargetDependency */,
+			);
+			name = "Pods-AYPullSheetViewController_Tests";
+			productName = "Pods-AYPullSheetViewController_Tests";
+			productReference = 1FEB851CDCDC34B695793059105E3734 /* Pods_AYPullSheetViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3732B27BDE5622CA519FD34BA154CED2 /* Pods-AYPullSheetViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA2CB4CCCA84A468933A9DA5761A710 /* Build configuration list for PBXNativeTarget "Pods-AYPullSheetViewController_Example" */;
+			buildPhases = (
+				7E177D4655EF4524DEC5ACC273BFCDFC /* Headers */,
+				246370D4FD2A042271E74E9FEABB4C1D /* Sources */,
+				13804B625757AB377EA3C177F64045CC /* Frameworks */,
+				F24C05D9A6C21AB4289C936394F69C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1B01DFC9278072FB1B4C7AD9200B6C /* PBXTargetDependency */,
+			);
+			name = "Pods-AYPullSheetViewController_Example";
+			productName = "Pods-AYPullSheetViewController_Example";
+			productReference = 8E1BC3A4C38BF84F61DC43B3345E2359 /* Pods_AYPullSheetViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3D86E6B9C6EAF2171F14FDF29A2B5C7 /* AYPullSheetViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3611652AE5055C6FE0CDB1EAD5EE0 /* Build configuration list for PBXNativeTarget "AYPullSheetViewController" */;
+			buildPhases = (
+				D49121B69BCA045721BF5815B597E947 /* Headers */,
+				85731BB0D50C8F1DC6F530AE500893A6 /* Sources */,
+				2CB5ADDD2FE0BD8C8BF8410AD99D411A /* Frameworks */,
+				88BCA98559E67BAB1395B39D5700DEA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYPullSheetViewController;
+			productName = AYPullSheetViewController;
+			productReference = 65AA3EC74617E25B5C4A5F20D1DAE3C5 /* AYPullSheetViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B84F3A5CF1D5F12F05158982FFE6AD14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D86E6B9C6EAF2171F14FDF29A2B5C7 /* AYPullSheetViewController */,
+				3732B27BDE5622CA519FD34BA154CED2 /* Pods-AYPullSheetViewController_Example */,
+				29D5062EAB5DBBC59CE97E1044C66D82 /* Pods-AYPullSheetViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62B0E777269A850793976358F6B1E870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BCA98559E67BAB1395B39D5700DEA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24C05D9A6C21AB4289C936394F69C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246370D4FD2A042271E74E9FEABB4C1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A950A35129206B12BEC06F5B2420BDCA /* Pods-AYPullSheetViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85731BB0D50C8F1DC6F530AE500893A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF858412B00CFF9FEC30523B2E076593 /* AYPullSheetViewController-dummy.m in Sources */,
+				4085A35E230FE7D100213858 /* AYPullSheetViewController.swift in Sources */,
+				4085A361230FE7D100213858 /* CGFloat.swift in Sources */,
+				4085A35C230FE7D100213858 /* AYAnimatedScaledDismissing.swift in Sources */,
+				4085A35A230FE7D100213858 /* AYAnimatedScaledPresenting.swift in Sources */,
+				4085A368230FE7D100213858 /* AYPullSheetViewFactory.swift in Sources */,
+				4085A359230FE7D100213858 /* AYAnimatedFactory.swift in Sources */,
+				4085A36B23100B8300213858 /* UILabel.swift in Sources */,
+				4085A35D230FE7D100213858 /* AYAnimatedDismissing.swift in Sources */,
+				4085A367230FE7D100213858 /* AYPullSheetContainerView.swift in Sources */,
+				4085A362230FE7D100213858 /* AYPullItemActionView.swift in Sources */,
+				4085A365230FE7D100213858 /* AYPullSheetContentView.swift in Sources */,
+				4085A369230FE7D100213858 /* Contract.swift in Sources */,
+				4085A35F230FE7D100213858 /* UIView.swift in Sources */,
+				4085A366230FE7D100213858 /* AYPullSheetView.swift in Sources */,
+				4085A35B230FE7D100213858 /* AYAnimatedPresenting.swift in Sources */,
+				4085A360230FE7D100213858 /* UIColor.swift in Sources */,
+				4085A363230FE7D100213858 /* AYDirectionLineView.swift in Sources */,
+				4085A364230FE7D100213858 /* AYClickableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7E0EAF6A5F97742B11693B9C50F5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8159C63BF8B019725F2D5C0CA19813 /* Pods-AYPullSheetViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512763809AF54A07649E5F4DD53EC78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AYPullSheetViewController_Example";
+			target = 3732B27BDE5622CA519FD34BA154CED2 /* Pods-AYPullSheetViewController_Example */;
+			targetProxy = 4D8CBE11E696C7840FBF401DD53FBC88 /* PBXContainerItemProxy */;
+		};
+		AA1B01DFC9278072FB1B4C7AD9200B6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYPullSheetViewController;
+			target = D3D86E6B9C6EAF2171F14FDF29A2B5C7 /* AYPullSheetViewController */;
+			targetProxy = 8474D80BEC901E4169157044506BE538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DD1FB5AFB2D66DA32290A2EDF57C384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9DD8729D857B3F69781D935DD81BE6 /* Pods-AYPullSheetViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPullSheetViewController_Tests/Pods-AYPullSheetViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPullSheetViewController_Tests/Pods-AYPullSheetViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		51B28E0BCE5CA4AB44CAD7AABA54C4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1752551CD4098C3AE743E9AE358168 /* Pods-AYPullSheetViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPullSheetViewController_Example/Pods-AYPullSheetViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPullSheetViewController_Example/Pods-AYPullSheetViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FDB878D919F5F581AFFD03138A058C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D67FFDD134B2928E58439E3865CB84 /* Pods-AYPullSheetViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPullSheetViewController_Tests/Pods-AYPullSheetViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPullSheetViewController_Tests/Pods-AYPullSheetViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B68F5AB936DE9FDD76EFC40A92A5A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61240041503D10704CF25AA2D9475575 /* AYPullSheetViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPullSheetViewController/AYPullSheetViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPullSheetViewController/AYPullSheetViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYPullSheetViewController/AYPullSheetViewController.modulemap";
+				PRODUCT_MODULE_NAME = AYPullSheetViewController;
+				PRODUCT_NAME = AYPullSheetViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92EF42F4B20742E9EED862CD465200C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61240041503D10704CF25AA2D9475575 /* AYPullSheetViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYPullSheetViewController/AYPullSheetViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYPullSheetViewController/AYPullSheetViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYPullSheetViewController/AYPullSheetViewController.modulemap";
+				PRODUCT_MODULE_NAME = AYPullSheetViewController;
+				PRODUCT_NAME = AYPullSheetViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A14BE4D3CBB09730C381C6AA506CA7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E97E68889A502AEA301E60D533982AE /* Pods-AYPullSheetViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYPullSheetViewController_Example/Pods-AYPullSheetViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYPullSheetViewController_Example/Pods-AYPullSheetViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA2CB4CCCA84A468933A9DA5761A710 /* Build configuration list for PBXNativeTarget "Pods-AYPullSheetViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14BE4D3CBB09730C381C6AA506CA7DE /* Debug */,
+				51B28E0BCE5CA4AB44CAD7AABA54C4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3611652AE5055C6FE0CDB1EAD5EE0 /* Build configuration list for PBXNativeTarget "AYPullSheetViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EF42F4B20742E9EED862CD465200C2 /* Debug */,
+				7B68F5AB936DE9FDD76EFC40A92A5A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A43C1F46228900BA4D43B3849854DFD8 /* Build configuration list for PBXNativeTarget "Pods-AYPullSheetViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD1FB5AFB2D66DA32290A2EDF57C384 /* Debug */,
+				6FDB878D919F5F581AFFD03138A058C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

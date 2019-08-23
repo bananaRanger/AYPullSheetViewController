@@ -1,0 +1,16 @@
+PODS:
+  - AYPullSheetViewController (0.1.0)
+
+DEPENDENCIES:
+  - AYPullSheetViewController (from `../`)
+
+EXTERNAL SOURCES:
+  AYPullSheetViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYPullSheetViewController: c1de9028d78a18de4cb6b4f02928dc74a9c64828
+
+PODFILE CHECKSUM: a823b899fb1ef5fa75473cfc145f49668e796e94
+
+COCOAPODS: 1.7.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AYPullSheetViewController_Example' do
+  pod 'AYPullSheetViewController', :path => '../'
+
+  target 'AYPullSheetViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

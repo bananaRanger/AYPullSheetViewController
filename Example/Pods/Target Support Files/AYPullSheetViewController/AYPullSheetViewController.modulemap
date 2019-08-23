@@ -1,0 +1,6 @@
+framework module AYPullSheetViewController {
+  umbrella header "AYPullSheetViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

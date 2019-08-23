@@ -32,13 +32,14 @@ end
 ```swift
 // 'clickHandler' - closure of 'AYActionViewClickHandler' type.
 
-let pullSheet = AYPullSheetViewController.leaf(
+let pullSheet = AYPullSheetViewController.create(
   initialAppearancePercent: 32,
   finalAppearancePercent: 92,
   horizontalSpacing: 16,
   animationType: .scaled)
   
-pullSheet.containerView?.pullView?.topCornerRadius = 32
+pullSheet.containerView?.pullView?.topCornerRadius = 16
+pullSheet.containerView?.pullView?.arrow?.strokeColor = .action
 
 pullSheet.addRow(actionView: AYPullItemActionView.make(with: "Home", image: nil, clickHandler: clickHandler))
 pullSheet.addRow(actionView: AYPullItemActionView.make(with: "About", image: nil, clickHandler: clickHandler))
