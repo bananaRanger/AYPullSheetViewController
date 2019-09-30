@@ -1,9 +1,9 @@
 # AYPullSheetViewController
 
 [![CI Status](https://img.shields.io/travis/antonyereshchenko@gmail.com/AYPullSheetViewController.svg?style=flat)](https://travis-ci.org/antonyereshchenko@gmail.com/AYPullSheetViewController)
-[![Version](https://img.shields.io/cocoapods/v/AYPullSheetViewController.svg?style=flat)](https://cocoapods.org/pods/SheetViewController)
-[![License](https://img.shields.io/cocoapods/l/AYPullSheetViewController.svg?style=flat)](https://cocoapods.org/pods/SheetViewController)
-[![Platform](https://img.shields.io/cocoapods/p/AYPullSheetViewController.svg?style=flat)](https://cocoapods.org/pods/SheetViewController)
+[![Version](https://img.shields.io/cocoapods/v/AYPullSheetViewController.svg?style=flat)](https://cocoapods.org/pods/AYPullSheetViewController)
+[![License](https://img.shields.io/cocoapods/l/AYPullSheetViewController.svg?style=flat)](https://cocoapods.org/pods/AYPullSheetViewController)
+[![Platform](https://img.shields.io/cocoapods/p/AYPullSheetViewController.svg?style=flat)](https://cocoapods.org/pods/AYPullSheetViewController)
 
 <p align="center">
   <img width="32%" height="32%" src="https://github.com/bananaRanger/AYPullSheetViewController/blob/master/Resources/logo.png?raw=true">
